@@ -18,8 +18,8 @@ Now it is easy to send bulk notifications to your telegram users without hitting
  - Telegram: https://t.me/JavohirSD
  - Gmail:    alienware7x@gmail.com 
 
-(screenshots/index.png)
-(screenshots/process.png)
+![index](screenshots/index.png)
+![process](screenshots/process.png)
 
 License
 ----
