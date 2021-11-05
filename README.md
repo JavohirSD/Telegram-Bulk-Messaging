@@ -9,7 +9,7 @@ Now it is easy to send bulk notifications to your telegram users without hitting
  - Detailed summary of process
  
 **Installing:**
- 1. Clone files to your local/shared hosing
+ 1. Clone files to your local/shared hosting
  2. Change configurations in `/php/post.php` (6-12 lines)
  3. Now you can start using with index.html
 
