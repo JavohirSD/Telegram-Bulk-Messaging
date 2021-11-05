@@ -93,8 +93,10 @@ for($i=0; $i<count($result); $i++){
   
 
 
-//set the url
+//real telegram the url
 $url = 'https://api.telegram.org/bot'.$bot_token.'/'.$method;
+
+//test url - fake telegram responses
 //$url = 'http://bulk.loc/php/telegram.php';
  
 
