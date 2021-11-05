@@ -1,3 +1,3 @@
 # Telegram-Bulk-Messaging
 ![alt text](https://github.com/[JavohirSD]/Telegram-Bulk-Messaging/screenshots/blob/master/index.png?raw=true)
-![plot](.screenshots/index.png)
+![plot](screenshots/index.png)
