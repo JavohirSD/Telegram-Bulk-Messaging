@@ -7,7 +7,7 @@ $servername  = "localhost";
 $username    = "root";
 $password    = "";
 $database    = "DATABASE_DB";
-$user_table  = "users1";   // table of your bot users
+$user_table  = "users";   // table of your bot users
 $chat_id_row = "chat_id";  // row which you stored telegram id of users
 $bot_token   = "YOUR_BOT_API_TOKEN_HERE";
 
