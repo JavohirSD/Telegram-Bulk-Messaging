@@ -6,10 +6,10 @@ header('Access-Control-Allow-Origin: *');
 $servername  = "localhost";
 $username    = "root";
 $password    = "";
-$database    = "mtm_db";
-$user_table  = "users1";
-$chat_id_row = "telegram_id";
-$bot_token   = "2010521012:AAGoq8e2KnSXzHxthUfdXlLujL47ZiTkWH4";
+$database    = "DATABASE_DB";
+$user_table  = "users1";   // table of your bot users
+$chat_id_row = "chat_id";  // row which you stored telegram id of users
+$bot_token   = "YOUR_BOT_API_TOKEN_HERE";
 
 
 
