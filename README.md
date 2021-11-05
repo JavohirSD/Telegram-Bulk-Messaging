@@ -20,7 +20,7 @@ Now it is easy to send bulk notifications to your telegram users without hitting
 
 **INDEX.HTML**
 ![index](screenshots/index.png)
-
+----
 **PROCESS / RESULTS**
 ![process](screenshots/process.png)
 
