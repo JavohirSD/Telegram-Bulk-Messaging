@@ -7,11 +7,14 @@ Now it is easy to send bulk notifications to your telegram users without hitting
  - Far from telegram bot API bulk messaging limitations
  - Real time monitoring the process
  - Detailed summary of process
+ - Simple user friendly interface
+ - Easy to install/configure
  
 **Installing:**
  1. Clone files to your local/shared hosting
  2. Change configurations in `/php/post.php` (6-12 lines)
- 3. Now you can start using with index.html
+ 3. Edit host url in `/js/main.js` (31 th line)
+ 4. Now you can start using with index.html
 
 **Testing:**
 
