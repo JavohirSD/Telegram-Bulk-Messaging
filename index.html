@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Message form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="margin-top: 20px;">
+  <h2>Bulk notification message:</h2>
+  <form method="post" action="php/sender.php">
+    <div class="form-group">
+      <label for="message">Message text:</label>
+      <textarea class="form-control" name="message" rows="8" required></textarea> 
+    </div>
+
+    <div class="form-group">
+      <label for="keyboard">Message type:</label>
+      <select class="form-control" name="method" id="method">
+      <option value="sendMessage">Text message</option>
+      <option value="sendPhoto">Photo message</option>
+      <option value="sendVideo">Video message</option>
+      <option value="sendAudio">Audio message</option>
+      <option value="sendDocument">PDF/ZIP message</option>
+    </select> 
+    </div>
+
+    <div class="form-group" id="url_group" style="display: none;">
+      <label for="keyboard">Meida file URL (jpg,mp4,mp3,pdf,zip)</label>
+      <textarea class="form-control" name="url" rows="1"> </textarea> 
+    </div>
+
+    <div class="form-group">
+      <label for="keyboard">Keyboard (JSON):</label>
+      <textarea 
+      class="form-control" 
+      name="keyboard" 
+      rows="3" 
+      placeholder="Leave empty to send without keyboard"></textarea> 
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send message</button>
+  </form>
+</div>
+
+</body>
+</html>
+<script type="text/javascript"> 
+$( document ).ready(function() {
+   $('#method').change(function(){
+      if($(this).val() == 'sendMessage') {
+          $('#url_group').hide();
+       } else {
+          $('#url_group').show();
+       }
+    })
+});
+
+</script>
