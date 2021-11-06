@@ -23,7 +23,7 @@ $(document).ready(function(){
    var requests_done = 0;
    var start_date    = getMoment();
 
-   var message  = $('#id_message').text();
+   var message  = $('#id_message').html();
    var keyboard = $('#id_keyboard').text();
    var method   = $('#id_method').text();
    var url      = $('#id_url').text();
