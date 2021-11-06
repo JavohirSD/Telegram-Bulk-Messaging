@@ -41,7 +41,7 @@ if(isset($_POST['getCount'])) {
 
 
  // SELECT LIMITED USERS FROM TABLE
-$query  = "SELECT $chat_id_row FROM $user_table WHERE status=1 LIMIT 30 OFFSET ".$_GET['offset'];
+$query  = "SELECT $chat_id_row FROM $user_table WHERE id>0 LIMIT 30 OFFSET ".$_GET['offset'];
 $result = $conn->query($query)->fetchAll(PDO::FETCH_ASSOC);
  
 
