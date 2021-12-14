@@ -2,13 +2,13 @@
 // CORS POLICY HEADER
 header('Access-Control-Allow-Origin: *');
 
-// CONFIGURATIONS
+// DATABASE CONFIGURATIONS
 $servername  = "localhost";
 $username    = "root";
 $password    = "";
-$database    = "DATABASE_DB";
-$user_table  = "users";   // table of your bot users
-$chat_id_row = "chat_id";  // row which you stored telegram id of users
+$database    = "DATABASE_DB"; // Your database name
+$user_table  = "users";       // Table of your bot users
+$chat_id_row = "chat_id";     // Row which you stored telegram id of users
 $bot_token   = "YOUR_BOT_API_TOKEN_HERE";
 
 
